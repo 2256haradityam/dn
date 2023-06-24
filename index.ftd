@@ -1,0 +1,48 @@
+-- ftd.column:
+width: fill-container
+height: fill-container
+background.solid: #eee
+align-content: center
+spacing.fixed.px: 20
+-- card: Default Title
+
+.. acvhdsvc
+
+-- component card:
+caption title: Default Title
+body description: Default body
+
+-- ftd.row:
+width.fixed.px: 650
+height.fixed.px: 350
+background.solid: #e5e4d1
+border-width.px: 3
+border-radius.px: 20
+padding.px: 20
+spacing.fixed.px: 50
+
+
+-- ftd.image:
+src: $assets.files.images.lko.jpg
+height: fill-container
+border-radius.px: 20
+
+
+
+-- ftd.column:
+
+-- ftd.text: $card.title
+role: $inherited.types.heading-medium
+
+-- ftd.text: $card.description
+role: $inherited.types.copy-regular
+
+
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+
+
+-- end: card

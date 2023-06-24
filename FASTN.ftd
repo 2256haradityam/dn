@@ -1,0 +1,5 @@
+-- import: fastn
+
+-- fastn.package: card
+
+-- fastn.auto-import: card/assets
